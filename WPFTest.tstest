@@ -1,0 +1,1704 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2013.1.530.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2013.1.530.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2013.1.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2013.1.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2013.1.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2013.1.530.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "55103af5-2d84-4110-a16a-1d98dae8b2c7",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestocomnse1.jdu",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "aec81f4b-8c3b-42bf-a854-5e16cbca4069",
+            "Description": "LeftDoubleClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": true,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTesttpy1ppdf.kp3",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "a609c982-2faa-4e62-ac93-77d1a9fac329",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTest34qccn2v.ejg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "f599dab7-da49-4f48-b33d-20e9650bed0b",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestm45a2mf0.ecd",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "42a0e470-34da-41ee-be9b-58700681d76e",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTest2y3xqaww.eeg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "4c932924-9770-4f4f-b9c2-922df0b026b5",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestu1rg01u3.d3y",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "7478d8dc-67c4-4fc0-985b-a2c45a1bffad",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestzhpia3ct.u5p",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "37c89911-1ba9-4e5c-945d-0feb896a9f57",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTesttfh3dixd.5ht",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "884ab68c-2a8c-4f57-88ee-cc99d54ff7d2",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "42, 57, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestt110czwj.fym",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "05673c68-58f1-40c3-a3b9-ef62967527f3",
+            "Description": "LeftClick on Item2Textboxview",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "17, 47, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "PTneWopDQqTir2yXFqVl46D1tlg=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Item2Textboxview",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=textbox"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "name=outputText"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[name=border]/scrollviewer[name=PART_ContentHost]/grid[0]/scrollcontentpresenter[0]/textboxview[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/textbox[1]/border[1]/scrollviewer[1]/grid[1]/scrollcontentpresenter[1]/textboxview[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Silverlight.FrameworkElement",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 10,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestlbpo3u2j.dqb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b8db3f3e-2d63-49d8-9d5a-2b0701a1a77a",
+            "Description": "LeftClick on Canvas1Canvas",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "11, 11, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "dynpjYlY3OtjESdYWH05jDC4Prs=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Canvas1Canvas",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=canvas1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=canvas"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/canvas[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.Canvas",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTesth3hukpdn.tqn",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "16c6f7da-8e03-452c-9bab-56b0b2db5f59",
+            "Description": "LeftClick on Canvas1Canvas",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "97, 52, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "dynpjYlY3OtjESdYWH05jDC4Prs=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "Canvas1Canvas",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "Name=canvas1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlTag=canvas"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]/adornerdecorator[1]/contentpresenter[1]/grid[1]/canvas[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.Canvas",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 12,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTest3ls34rpq.i30",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "da6e3c55-3aa3-4dc1-b818-443baf88c3c9",
+            "Description": "LeftClick on ClearProgramFilesBorder",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Silverlight.Descriptors.SilverlightClickActionDescriptor",
+              "__value": {
+                "ClickPoint": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "22, 96, Percentage, TopLeftCorner"
+                },
+                "UseOffset": true,
+                "Button": 1048576,
+                "SimulateRealUser": true,
+                "ModiferKeysCode": 0,
+                "IsDoubleClick": false,
+                "TechnologyType": 6,
+                "WaitForNoMotion": true,
+                "WaitForNoMotionCheckInterval": 500,
+                "VirtualizingContainerOffset": 0.0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfAppNode",
+                        "__value": {
+                          "ExecutablePath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+                          "ModuleName": "WpfApplication3.exe",
+                          "FriendlyName": "WpfApplication3.exe"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.WpfWindowNode",
+                        "__value": {
+                          "Caption": "MainWindow source3",
+                          "FriendlyName": "MainWindow source3"
+                        }
+                      },
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "CoWzx8Dgw9y7ezb9ses6wyhw80s=",
+                          "NodeKind": 5,
+                          "TechnologyType": 4,
+                          "Name": "ClearProgramFilesBorder",
+                          "FindExpressions": [
+                            {
+                              "Key": 4,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Silverlight.XamlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Silverlight.XamlFindClause",
+                                      "__value": {
+                                        "Clause": "XamlPath=/border[0]"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/mainwindow[1]/border[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.Xaml.Wpf.Border",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 4,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 13,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "WPFTestdafhfyeo.zf4",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": "C:\\Work\\Executables_DotNet45\\WpfApplication3.exe",
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "new-test-project.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "WPFTest.resx",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "WPFTest",
+    "Owner": "",
+    "Path": "WPFTest.tstest",
+    "Priority": 0,
+    "TestType": 1,
+    "UniqueId": "2a62f356-d206-4226-b553-8acbdbb8818c",
+    "Id": "2a62f356-d206-4226-b553-8acbdbb8818c",
+    "ProjectId": "d0958ad3-8052-4115-b2cd-30435e861002",
+    "Version": 200
+  }
+}
