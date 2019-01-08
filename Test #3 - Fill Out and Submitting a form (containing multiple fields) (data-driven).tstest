@@ -5,7 +5,6 @@
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
     "ProfilerResultsDirectory": null,
-    "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
@@ -80,7 +79,6 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "UsejQuery": false,
-                "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
@@ -125,7 +123,6 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "UsejQuery": false,
-                "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
@@ -195,7 +192,6 @@
               "FriendlyName": "stoil"
             }
           },
-          "FindInfo": null,
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
@@ -254,7 +250,6 @@
             }
           },
           "Frame": null,
-          "FindInfo": null,
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
