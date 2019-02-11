@@ -1,0 +1,316 @@
+{
+  "__type": "Telerik.TestStudio.Load.LoadDesignTest",
+  "__value": {
+    "ControllerConfiguration": {
+      "__type": "Telerik.TestStudio.Load.LoadControllerConfiguration",
+      "__value": {
+        "MachineName": null
+      }
+    },
+    "ProfiledServers": [],
+    "Goals": [
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Average Response Time (ms)",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Average Response Time (ms)",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Average Response Time (ms) for Overall Test",
+          "RunDescription": "Fail this goal if Average Response Time (ms) is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application respond in less than 3000 milliseconds?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "HTTP Errors/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "HTTP Errors/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "HTTP Errors/second for Overall Test",
+          "RunDescription": "Fail this goal if HTTP Errors/second is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application throw no more than 10 errors per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Responses Received/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Responses Received/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Responses Received/second for Overall Test",
+          "RunDescription": "Pass this goal if Responses Received/second is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application return more than 100 responses per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Current Virtual Users",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Current Virtual Users",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Current Virtual Users for Overall Test",
+          "RunDescription": "Pass this goal if Current Virtual Users is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application handle more than 1000 user requests concurrently?\""
+        }
+      }
+    ],
+    "ControlAndLoadFromThisComputer": false,
+    "ReportingSampleInterval": "00:00:05",
+    "Duration": "00:02:00",
+    "Preferences": {
+      "ForceNewConnection": true,
+      "DelayGC": false
+    },
+    "IgnoreGoalsForXSeconds": 0,
+    "AuthorizationProfiles": [],
+    "IsManual": false,
+    "AutomaticallyDistributeUserGroups": false,
+    "ResourceFilePath": "LoadTest.resx",
+    "LoadAgentConfigurations": [],
+    "UserGroups": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenarioGroup",
+        "__value": {
+          "MinimumUsers": 1,
+          "StartUserCount": 1,
+          "MaxUserCount": 7,
+          "UserRampTimeInMinutes": 0.0,
+          "Name": null,
+          "UserScenarios": [
+            {
+              "__type": "Telerik.TestStudio.Load.ConfiguredScenario",
+              "__value": {
+                "IsEnabled": true,
+                "Percentage": 100.0,
+                "ScenarioId": "33aaaae2-92ce-4eac-b423-7d5c45dde8e6"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "UserScenarios": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenario",
+        "__value": {
+          "BindingSources": {},
+          "BindingSourceSteps": {},
+          "Actions": [
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "85d40c4a-12d6-4860-af89-ab4c23b3a27f",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "*/*",
+                      "Accept-Language": "en-US,en;q=0.7,bg;q=0.3",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "api.bing.com",
+                      "Connection": "Keep-Alive",
+                      "Cookie": "SRCHUID=V=2&GUID=669BDFAD30EE40BCBBB49E77EF0F7ED8&dmnchg=1; SRCHD=AF=NOFORM; _UR=D=0; OID=ARAnTixGzZDuhe0_X2ndYCxccbALczsLDNoxI-0bEeClQFdZOULe8BbeIyh1h7cSo1N4kMdVRHeXGOOym5RRLR-5; _EDGE_V=1; MUID=1B0443C98E0160A2327D4F3B8FB761B6; _BINGNEWS=SW=1559&MSW=1559; SRCHUSR=DOB=20190128&T=1549459306000; SRCHHPGUSR=CW=2539&CH=1291&DPR=1.25&UTC=120&WTS=63685056105"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://api.bing.com/qsml.aspx?query=at&maxwidth=32765&rowheight=26&sectionHeight=208&FORM=IESS4A&market=en-US",
+                    "ID": 1,
+                    "Timestamp": "2019-02-08T17:47:45.8034319+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://api.bing.com/qsml.aspx?query=at&maxwidth=32765&rowheight=26&sectionHeight=208&FORM=IESS4A&market=en-US",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-02-08T17:47:45.8034319+02:00",
+                "DisplayHeader": "GET https://api.bing.com/qsml.aspx?query=at&maxwidth=32765&rowheight=26&sectionHeight=208&FORM=IESS4A&market=en-US",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "7599bbcb-7749-40f4-8fb9-9f5a9ab9a676",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "text/html, application/xhtml+xml, image/jxr, */*",
+                      "Accept-Language": "en-US,en;q=0.7,bg;q=0.3",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "at-hyperv01",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://at-hyperv01/",
+                    "ID": 2,
+                    "Timestamp": "2019-02-08T17:47:46.2101301+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://at-hyperv01/",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-02-08T17:47:46.2101301+02:00",
+                "DisplayHeader": "GET http://at-hyperv01/",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "91d42020-2b4d-466d-b248-010987b06571",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Accept": "image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5",
+                      "Referer": "http://at-hyperv01/",
+                      "Accept-Language": "en-US,en;q=0.7,bg;q=0.3",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+                      "Accept-Encoding": "gzip, deflate",
+                      "Host": "at-hyperv01",
+                      "Proxy-Connection": "Keep-Alive"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://at-hyperv01/iis-85.png",
+                    "ID": 3,
+                    "Timestamp": "2019-02-08T17:47:46.3857339+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://at-hyperv01/iis-85.png",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-02-08T17:47:46.3857339+02:00",
+                "DisplayHeader": "GET http://at-hyperv01/iis-85.png",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            }
+          ],
+          "Description": "HTTP traffic recorded at 2/8/2019 5:47:49 PM",
+          "Guid": "33aaaae2-92ce-4eac-b423-7d5c45dde8e6",
+          "WindowsAuthenticationProfileId": null,
+          "FunctionalTestBrowser": 0,
+          "FunctionalTestPath": null,
+          "Name": "Capture (2/8/2019 5:47:49 PM)"
+        }
+      }
+    ],
+    "LastView": 3,
+    "TestLinks": [],
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "Description": "",
+    "Name": "LoadTest",
+    "Owner": "",
+    "Path": "LoadTest.tstest",
+    "Priority": 0,
+    "TestType": 3,
+    "UniqueId": "86ce27bb-be7f-4f4b-940b-adcfcb0efa43",
+    "Id": "86ce27bb-be7f-4f4b-940b-adcfcb0efa43",
+    "ProjectId": "8e4941e8-e17f-4822-8eae-a71fd3afcf15",
+    "Version": 200,
+    "ExecutionDescription": "LoadTest for 2 minutes with 7 users"
+  }
+}
